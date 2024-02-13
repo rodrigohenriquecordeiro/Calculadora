@@ -46,11 +46,12 @@
             btn_divisao = new Button();
             btn_multiplicacao = new Button();
             btn_subtracao = new Button();
-            textBox1 = new TextBox();
+            textBox = new TextBox();
             SuspendLayout();
             // 
             // btn_sete
             // 
+            btn_sete.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_sete.Location = new Point(8, 143);
             btn_sete.Name = "btn_sete";
             btn_sete.Size = new Size(80, 50);
@@ -60,6 +61,7 @@
             // 
             // btn_oito
             // 
+            btn_oito.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_oito.Location = new Point(96, 143);
             btn_oito.Name = "btn_oito";
             btn_oito.Size = new Size(80, 50);
@@ -69,6 +71,7 @@
             // 
             // btn_nove
             // 
+            btn_nove.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_nove.Location = new Point(180, 143);
             btn_nove.Name = "btn_nove";
             btn_nove.Size = new Size(80, 50);
@@ -78,6 +81,7 @@
             // 
             // btn_adicao
             // 
+            btn_adicao.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_adicao.Location = new Point(266, 143);
             btn_adicao.Name = "btn_adicao";
             btn_adicao.Size = new Size(80, 50);
@@ -87,6 +91,7 @@
             // 
             // btn_quatro
             // 
+            btn_quatro.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_quatro.Location = new Point(8, 199);
             btn_quatro.Name = "btn_quatro";
             btn_quatro.Size = new Size(80, 50);
@@ -96,6 +101,7 @@
             // 
             // btn_cinco
             // 
+            btn_cinco.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_cinco.Location = new Point(94, 199);
             btn_cinco.Name = "btn_cinco";
             btn_cinco.Size = new Size(80, 50);
@@ -105,6 +111,7 @@
             // 
             // btn_ponto
             // 
+            btn_ponto.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_ponto.Location = new Point(266, 199);
             btn_ponto.Name = "btn_ponto";
             btn_ponto.Size = new Size(80, 50);
@@ -114,6 +121,7 @@
             // 
             // btn_um
             // 
+            btn_um.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_um.Location = new Point(8, 255);
             btn_um.Name = "btn_um";
             btn_um.Size = new Size(80, 50);
@@ -123,6 +131,7 @@
             // 
             // btn_dois
             // 
+            btn_dois.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_dois.Location = new Point(96, 255);
             btn_dois.Name = "btn_dois";
             btn_dois.Size = new Size(80, 50);
@@ -132,6 +141,7 @@
             // 
             // btn_tres
             // 
+            btn_tres.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_tres.Location = new Point(180, 255);
             btn_tres.Name = "btn_tres";
             btn_tres.Size = new Size(80, 50);
@@ -141,6 +151,7 @@
             // 
             // btn_enter
             // 
+            btn_enter.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_enter.Location = new Point(266, 255);
             btn_enter.Name = "btn_enter";
             btn_enter.Size = new Size(80, 106);
@@ -150,6 +161,7 @@
             // 
             // btn_zero
             // 
+            btn_zero.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_zero.Location = new Point(8, 311);
             btn_zero.Name = "btn_zero";
             btn_zero.Size = new Size(168, 50);
@@ -159,6 +171,7 @@
             // 
             // btn_virgula
             // 
+            btn_virgula.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_virgula.Location = new Point(180, 311);
             btn_virgula.Name = "btn_virgula";
             btn_virgula.Size = new Size(80, 50);
@@ -168,6 +181,7 @@
             // 
             // btn_seis
             // 
+            btn_seis.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_seis.Location = new Point(180, 199);
             btn_seis.Name = "btn_seis";
             btn_seis.Size = new Size(80, 50);
@@ -177,6 +191,7 @@
             // 
             // btn_del
             // 
+            btn_del.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_del.Location = new Point(8, 87);
             btn_del.Name = "btn_del";
             btn_del.Size = new Size(80, 50);
@@ -186,6 +201,7 @@
             // 
             // btn_divisao
             // 
+            btn_divisao.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_divisao.Location = new Point(94, 87);
             btn_divisao.Name = "btn_divisao";
             btn_divisao.Size = new Size(80, 50);
@@ -195,6 +211,7 @@
             // 
             // btn_multiplicacao
             // 
+            btn_multiplicacao.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_multiplicacao.Location = new Point(180, 87);
             btn_multiplicacao.Name = "btn_multiplicacao";
             btn_multiplicacao.Size = new Size(80, 50);
@@ -204,6 +221,7 @@
             // 
             // btn_subtracao
             // 
+            btn_subtracao.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
             btn_subtracao.Location = new Point(266, 87);
             btn_subtracao.Name = "btn_subtracao";
             btn_subtracao.Size = new Size(80, 50);
@@ -211,20 +229,21 @@
             btn_subtracao.Text = "-";
             btn_subtracao.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // textBox
             // 
-            textBox1.Location = new Point(8, 36);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(340, 45);
-            textBox1.TabIndex = 18;
+            textBox.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox.Location = new Point(8, 36);
+            textBox.Name = "textBox";
+            textBox.Size = new Size(337, 39);
+            textBox.TabIndex = 18;
+            textBox.TextChanged += Form1_Load;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(366, 380);
-            Controls.Add(textBox1);
+            ClientSize = new Size(359, 391);
+            Controls.Add(textBox);
             Controls.Add(btn_subtracao);
             Controls.Add(btn_multiplicacao);
             Controls.Add(btn_divisao);
@@ -246,6 +265,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora do RHC";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -270,6 +290,6 @@
         private Button btn_divisao;
         private Button btn_multiplicacao;
         private Button btn_subtracao;
-        private TextBox textBox1;
+        private TextBox textBox;
     }
 }
