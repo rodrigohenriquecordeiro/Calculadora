@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class Form1
+    partial class FrmCalculadora
     {
         /// <summary>
         ///  Required designer variable.
@@ -56,6 +56,7 @@
             btn_sete.Name = "btn_sete";
             btn_sete.Size = new Size(80, 50);
             btn_sete.TabIndex = 0;
+            btn_sete.TabStop = false;
             btn_sete.Text = "7";
             btn_sete.UseVisualStyleBackColor = true;
             // 
@@ -66,6 +67,7 @@
             btn_oito.Name = "btn_oito";
             btn_oito.Size = new Size(80, 50);
             btn_oito.TabIndex = 1;
+            btn_oito.TabStop = false;
             btn_oito.Text = "8";
             btn_oito.UseVisualStyleBackColor = true;
             // 
@@ -76,6 +78,7 @@
             btn_nove.Name = "btn_nove";
             btn_nove.Size = new Size(80, 50);
             btn_nove.TabIndex = 2;
+            btn_nove.TabStop = false;
             btn_nove.Text = "9";
             btn_nove.UseVisualStyleBackColor = true;
             // 
@@ -86,6 +89,7 @@
             btn_adicao.Name = "btn_adicao";
             btn_adicao.Size = new Size(80, 50);
             btn_adicao.TabIndex = 3;
+            btn_adicao.TabStop = false;
             btn_adicao.Text = "+";
             btn_adicao.UseVisualStyleBackColor = true;
             // 
@@ -96,6 +100,7 @@
             btn_quatro.Name = "btn_quatro";
             btn_quatro.Size = new Size(80, 50);
             btn_quatro.TabIndex = 4;
+            btn_quatro.TabStop = false;
             btn_quatro.Text = "4";
             btn_quatro.UseVisualStyleBackColor = true;
             // 
@@ -106,6 +111,7 @@
             btn_cinco.Name = "btn_cinco";
             btn_cinco.Size = new Size(80, 50);
             btn_cinco.TabIndex = 5;
+            btn_cinco.TabStop = false;
             btn_cinco.Text = "5";
             btn_cinco.UseVisualStyleBackColor = true;
             // 
@@ -116,6 +122,7 @@
             btn_ponto.Name = "btn_ponto";
             btn_ponto.Size = new Size(80, 50);
             btn_ponto.TabIndex = 7;
+            btn_ponto.TabStop = false;
             btn_ponto.Text = ".";
             btn_ponto.UseVisualStyleBackColor = true;
             // 
@@ -126,6 +133,7 @@
             btn_um.Name = "btn_um";
             btn_um.Size = new Size(80, 50);
             btn_um.TabIndex = 8;
+            btn_um.TabStop = false;
             btn_um.Text = "1";
             btn_um.UseVisualStyleBackColor = true;
             // 
@@ -136,6 +144,7 @@
             btn_dois.Name = "btn_dois";
             btn_dois.Size = new Size(80, 50);
             btn_dois.TabIndex = 9;
+            btn_dois.TabStop = false;
             btn_dois.Text = "2";
             btn_dois.UseVisualStyleBackColor = true;
             // 
@@ -146,6 +155,7 @@
             btn_tres.Name = "btn_tres";
             btn_tres.Size = new Size(80, 50);
             btn_tres.TabIndex = 10;
+            btn_tres.TabStop = false;
             btn_tres.Text = "3";
             btn_tres.UseVisualStyleBackColor = true;
             // 
@@ -156,6 +166,7 @@
             btn_enter.Name = "btn_enter";
             btn_enter.Size = new Size(80, 106);
             btn_enter.TabIndex = 11;
+            btn_enter.TabStop = false;
             btn_enter.Text = "Enter";
             btn_enter.UseVisualStyleBackColor = true;
             // 
@@ -166,6 +177,7 @@
             btn_zero.Name = "btn_zero";
             btn_zero.Size = new Size(168, 50);
             btn_zero.TabIndex = 12;
+            btn_zero.TabStop = false;
             btn_zero.Text = "0";
             btn_zero.UseVisualStyleBackColor = true;
             // 
@@ -176,6 +188,7 @@
             btn_virgula.Name = "btn_virgula";
             btn_virgula.Size = new Size(80, 50);
             btn_virgula.TabIndex = 13;
+            btn_virgula.TabStop = false;
             btn_virgula.Text = ",";
             btn_virgula.UseVisualStyleBackColor = true;
             // 
@@ -186,6 +199,7 @@
             btn_seis.Name = "btn_seis";
             btn_seis.Size = new Size(80, 50);
             btn_seis.TabIndex = 6;
+            btn_seis.TabStop = false;
             btn_seis.Text = "6";
             btn_seis.UseVisualStyleBackColor = true;
             // 
@@ -196,6 +210,7 @@
             btn_del.Name = "btn_del";
             btn_del.Size = new Size(80, 50);
             btn_del.TabIndex = 14;
+            btn_del.TabStop = false;
             btn_del.Text = "DEL";
             btn_del.UseVisualStyleBackColor = true;
             // 
@@ -206,6 +221,7 @@
             btn_divisao.Name = "btn_divisao";
             btn_divisao.Size = new Size(80, 50);
             btn_divisao.TabIndex = 15;
+            btn_divisao.TabStop = false;
             btn_divisao.Text = "/";
             btn_divisao.UseVisualStyleBackColor = true;
             // 
@@ -216,6 +232,7 @@
             btn_multiplicacao.Name = "btn_multiplicacao";
             btn_multiplicacao.Size = new Size(80, 50);
             btn_multiplicacao.TabIndex = 16;
+            btn_multiplicacao.TabStop = false;
             btn_multiplicacao.Text = "*";
             btn_multiplicacao.UseVisualStyleBackColor = true;
             // 
@@ -226,6 +243,7 @@
             btn_subtracao.Name = "btn_subtracao";
             btn_subtracao.Size = new Size(80, 50);
             btn_subtracao.TabIndex = 17;
+            btn_subtracao.TabStop = false;
             btn_subtracao.Text = "-";
             btn_subtracao.UseVisualStyleBackColor = true;
             // 
@@ -236,9 +254,8 @@
             textBox.Name = "textBox";
             textBox.Size = new Size(337, 39);
             textBox.TabIndex = 18;
-            textBox.TextChanged += Form1_Load;
             // 
-            // Form1
+            // FrmCalculadora
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -262,10 +279,10 @@
             Controls.Add(btn_nove);
             Controls.Add(btn_oito);
             Controls.Add(btn_sete);
-            Name = "Form1";
+            Name = "FrmCalculadora";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora do RHC";
-            Load += Form1_Load;
+            Load += FrmCalculadora_Load;
             ResumeLayout(false);
             PerformLayout();
         }
